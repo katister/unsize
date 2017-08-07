@@ -142,6 +142,10 @@ ul li {
 /* ==========================================================================
 	$Header
 ========================================================================== */
+#mc_embed_signup{
+	font-family: 'Lato', sans-serif;
+}
+
 #header {
 	font-family: 'Lato', sans-serif;
 	position: fixed;
