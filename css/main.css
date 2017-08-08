@@ -142,10 +142,6 @@ ul li {
 /* ==========================================================================
 	$Header
 ========================================================================== */
-#mc_embed_signup{
-	font-family: 'Lato', sans-serif;
-}
-
 #header {
 	font-family: 'Lato', sans-serif;
 	position: fixed;
@@ -598,20 +594,8 @@ margin-bottom: -5px;
 	padding-right: 36px;
 }
 
-.email:focus {
-    outline: none;
-}
-.email {
-  font-family: 'HalisLight',sans-serif;
-  width: 500px;
-  height: 30px;
-  border-color: black;
-  padding-left: 1px;
-  position: relative;
-}
-.email.hover {
-  border-color: black;
-  transition: all 0.4s ease 0s;
+.mc_embed_signup{
+	font-family: 'Lato', sans-serif !important;
 }
 
 /* ==========================================================================
