@@ -119,12 +119,26 @@ ul li {
 }
 
 .no-padding {
-	font-family: 'Lato', sans-serif;
 	padding: 0;
 }
 .no-gutter [class*=col-] {
 	padding-right: 0;
 	padding-left: 0;
+}
+
+.no-left-gutter [class*=col-] {
+	padding-right: 0;
+	padding-left: 100px;
+}
+
+.sm-no-gutter [class*=col-] {
+	padding-right: 0;
+	margin-left: -85px;
+}
+
+.sm-no-gutter img{
+	vertical-align: right;
+	max-width: 100%;
 }
 /* ==========================================================================
 	$Fixed Top
@@ -524,18 +538,16 @@ margin-bottom: -5px;
 ========================================================================== */
 
 .service{
+	overflow: hidden;
 	background-color: #f3f3f3;
-	background-image: url('clothes.gif');
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 350px;
+	margin: 0;
 }
 
 .service img{
-	width: 100%;
-	height: auto;
-	padding-top: 25%;
-	padding-bottom: 5%
+align-content: right;
 }
 
 .service h1{
@@ -550,13 +562,11 @@ margin-bottom: -5px;
 }
 
 .service h2{
-	font-family: 'HalisBlack', sans-serif;
-	font-size: 30px;
-	letter-spacing: 3px;
+	font-family: 'HalisBold', sans-serif;
+	font-size: 18px;
 	color: #000000;
 	text-align: left;
-	text-transform: uppercase;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .service h4{
@@ -585,15 +595,25 @@ margin-bottom: -5px;
 }
 
 .service p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'HalisBook', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 18px;
 	color: #535353;
 	text-align: left;
 	padding-right: 36px;
+	padding-top: 50px;
 }
 
+.footer-right{
+	background-color: #0b37f5;
+	height: 100%;
+}
+
+.footer-right img{
+	margin-left: -100px;
+	height: 110%;
+}
 
 /* ==========================================================================
 	$Products
