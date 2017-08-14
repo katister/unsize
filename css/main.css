@@ -139,6 +139,7 @@ ul li {
 .sm-no-gutter img{
 	vertical-align: right;
 	max-width: 100%;
+	bottom: 0;
 }
 /* ==========================================================================
 	$Fixed Top
