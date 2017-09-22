@@ -1,0 +1,381 @@
+/* Namari Landing Page Dynamic Style Index
+
+1. Website Default Styling
+2. Navigation
+3. Primary and Secondary Colors
+4. Banner
+5. Typography
+6. Buttons
+7. Footer
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 1. Website Default Styling */
+/*------------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: HalisBlack;
+    src: url(HalisR-Black.otf);
+}
+@font-face {
+    font-family: HalisBold;
+    src: url(HalisR-Bold.otf);
+}
+@font-face {
+    font-family: HalisBook;
+    src: url(HalisR-Book.otf);
+}
+@font-face {
+    font-family: HalisLight;
+    src: url(HalisR-Light.otf);
+}
+@font-face {
+    font-family: HalisRegular;
+    src: url(HalisR-Regular.otf);
+}
+@font-face {
+    font-family: HalisMedium;
+    src: url(HalisR-Medium.otf);
+}
+
+body {
+    background:#fff;
+}
+
+
+/* Default Link Color */
+
+a, .la-ball-triangle-path {
+    color:#f40c6b;
+}
+
+a:hover, #header.nav-solid nav a:hover {
+    color:#f40c6b;
+}
+
+/* Default Icon Color */
+
+.icon i {
+    color:#f40c6b;
+}
+
+/* Border Color */
+
+#banner .section-heading:before, .testimonial.classic footer:before {
+    background: #f40c6b;
+}
+
+.pricing-block-content:hover {
+    border-color:#f40c6b;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 2. Navigation */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Transparent Navigation Color on a Banner */
+
+#header nav a, #header i {
+    color:#111;
+}
+
+
+/* Navigation Colors when the Navigation is sticky and solid */ 
+
+#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+    color:#333;
+}
+
+
+/* Navigation Active State */
+
+#header.nav-solid .active {
+    color: #f40c6b;
+    border-color: #f40c6b;
+}    
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 3. Primary and Secondary Colors */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Primary Background and Text Colors */
+
+.primary-color, .featured{
+    background-color:#f40c6b;
+}
+
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+    color:#fff;    
+}
+
+.section-heading h1:after {
+    background:#f40c6b;
+    content:"";
+    display:block;
+    width:30px;
+    height:0px;
+    margin-top:30px;
+}
+
+.section-heading-d h1:after {
+    background:#f40c6b;
+    content:"";
+    display:block;
+    width:50px;
+    height:5px;
+    margin-top:30px;
+}
+
+.section-heading-d h1{
+    font-size: 45px;
+}
+
+.section-heading-d h3{
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+
+.text-center .section-heading h2:after {
+    margin:30px auto 25px auto;
+}
+
+/* Primary Icon Colors */
+
+.primary-color .icon i, .primary-color i {
+    color:#fff;
+}
+
+
+/* Secondary Background and Text Colors */
+
+.secondary-color {
+    background-image: url("squiggle.svg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Banner Background and Text Colors */
+
+#banner {
+    background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background-size:cover;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 5. Typography */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'HalisLight', sans-serif, Arial, Helvetica;
+    font-size:15px;
+    font-weight:normal;
+    color:#111;
+}
+
+/* Logo, if you are using Fonts as Logo and not image
+
+#logo h1 {
+    font-family:;
+    font-size:; 
+    font-weight:;
+    color:;
+}
+
+#logo h2 {
+    font-family:;
+    font-size:; 
+    font-weight:;
+    color:;
+}
+
+*/
+
+
+/* Banner Typography */
+
+#banner h1 {
+    font-family: 'HalisBlack', sans-serif, Arial, Helvetica;
+    font-size:62px;
+    line-height:60px;
+    font-weight:800;
+    color:#111;
+}
+
+#banner h2 {
+    font-family: 'HalisLight', sans-serif, Arial, Helvetica;
+    font-size:18px;
+    font-weight:300;
+    color:#111;
+}
+
+
+/* Section Title and Subtitle */
+
+.section-title {
+    font-family: 'HalisBold', sans-serif, Arial, Helvetica;
+    font-size: 34px; 
+    font-weight:700;
+    color:#111;
+}
+
+.section-subtitle {
+    font-family: 'HalisLight', sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    font-weight:300;
+    color:#000000;
+}
+
+/* Testimonial */
+
+.testimonial q {
+    font-family: 'HalisMedium', sans-serif, Arial, Helvetica;
+    font-size: 17px; 
+    font-weight:300;
+}
+
+.testimonial.classic q, .testimonial.classic footer {
+    color:#111;
+}
+
+
+/* Standard Headings h1-h6 */
+
+h1 {
+    font-family: 'HalisBlack', sans-serif, Arial, Helvetica;
+    font-size: 40px; 
+    font-weight:300;
+    color:#111;
+}
+
+h2 {
+    font-family: 'HalisMedium', sans-serif, Arial, Helvetica;
+    font-size: 34px; 
+    font-weight:300;
+    color:#111;
+}
+
+h3 {
+    font-family: 'HalisBlack', sans-serif, Arial, Helvetica;
+    font-size: 30px; 
+    font-weight:700;
+    color:#111;
+}
+
+h4 {
+    font-family: 'HalisBold', sans-serif, Arial, Helvetica;
+    font-size: 18px; 
+    font-weight:400;
+    color:#111;
+}
+
+h5 {
+    font-family: 'HalisBold', sans-serif, Arial, Helvetica;
+    font-size: 16px; 
+    font-weight:400;
+    color:#111;
+}
+
+h6 {
+    font-family: 'HalisBold', sans-serif, Arial, Helvetica;
+    font-size: 14px; 
+    font-weight:400;
+    color:#111;
+}
+
+p{
+     font-family: 'HalisLight', sans-serif, Arial, Helvetica;
+    font-size: 14px; 
+    font-weight:400;
+    color:#111;
+}
+/*------------------------------------------------------------------------------------------*/
+/* 6. Buttons */
+/*------------------------------------------------------------------------------------------*/
+
+/* ----------Default Buttons---------- */
+
+
+/* Button Text */
+
+.button, input[type="submit"]  {
+    font-family: 'HalisBold', sans-serif, Arial, Helvetica;
+    font-size:14px;
+    letter-spacing: 2px;
+    font-weight:bold;
+    color:#111;
+}
+
+
+/* Button Color */
+
+.button, input[type="submit"] {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+.button:hover,  input[type="submit"]:hover {
+    border-color:#ffffff;
+    color:#ffffff;
+}
+
+
+/* ----------Banner Buttons---------- */
+
+
+/* Button Text */
+
+#banner .button {
+    font-family: 'HalisBook', sans-serif, Arial, Helvetica;
+    font-size:16px;
+    color:#111;
+}
+
+
+/* Button Color */
+
+#banner .button {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+#banner .button:hover {
+    color:#ffffff;
+    border-color:#ffffff;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 7. Footer */
+/*------------------------------------------------------------------------------------------*/
+
+#landing-footer, #landing-footer p, #landing-footer a {
+    font-family: 'HalisLight', sans-serif, Arial, Helvetica;
+    font-size:12px;
+    font-weight:normal;
+    color:#999;
+}
+
+/* Footer Icon Color */
+
+#landing-footer i {
+    color:#999;
+}
+
