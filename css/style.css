@@ -225,7 +225,7 @@ section {
 
 .gutter-left {
     position: relative;
-    margin: 0 0 0 50px;
+    padding: 0 25px 0 50px !important;
 }
 
 .no-padding-bottom .row, .no-padding-bottom div, .no-padding-bottom.row {
