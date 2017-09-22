@@ -1520,10 +1520,10 @@ blockquote {
 
 .pricing-sub {
     color:#000000;
-    margin:15px 35px 15px 35px;
+    margin: 20px 35px 10px 35px;
     font-size: 20px;
     line-height: 1.2;
-    font-family: 'HalisLight';
+    font-family: 'HalisMedium';
     text-align: left;
 }
 
